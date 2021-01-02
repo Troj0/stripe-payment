@@ -1,0 +1,37 @@
+{
+  "name": "alterbyte/stripe-payment",
+  "description": "loads a stripe modal when checking out on a disscusion",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": ">=0.1.0-beta.11 <0.1.0-beta.15"
+  },
+  "authors": [
+    {
+      "name": "Alterbyte",
+      "email": "muugotwings@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Alterbyte\\StripeCheckout\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Stripe Payment Gateway (Disscusion)",
+      "icon": {
+        "name": "",
+        "backgroundColor": "",
+        "color": ""
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
